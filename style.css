@@ -26,6 +26,17 @@ header{
     width: 100%;
 }
 
+.hamburger {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;  /*high value so it stays on top */
+}
+
+.image {
+  position: relative; /* ya absolute */
+  z-index: -1; /* lower than hamburger */
+}
 
 /* Background video */
 .bg-video {
