@@ -76,12 +76,15 @@ header{
     font-size: 40px;
    
 }
+button:hover{
+   transform: translateX(10px); 
+}
 .content button{
-margin: 20px;
+ margin: 20px;
  padding: 8px;
  background-color: rgba(11, 10, 10, 0.468);
  border-radius: 5px;
- border-color: gray;
+ border-color: gray; 
 }
 .content a{
 text-decoration: none;
